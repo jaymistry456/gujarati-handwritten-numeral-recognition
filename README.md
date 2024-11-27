@@ -23,7 +23,7 @@ To run this project, you need to have Python installed on your machine along wit
 3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
-4. To run the Jupyter Notebook, run the follwing commadn and open the model.ipynb file to see the python notebook in jupyter lab:
+4. To run the Jupyter Notebook, run the follwing command and open the model.ipynb file to see the python notebook in jupyter lab:
    ```bash
    jupyter lab
 5. To run the PyQT application, run the following command from the project folder
