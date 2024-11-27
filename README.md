@@ -14,8 +14,8 @@ To run this project, you need to have Python installed on your machine along wit
 
 1. Clone this repository:
    ```bash
-   git clone git@github.com:jaymistry456/gujarati-handwritten-character-recognition.git
-   cd gujarati-digit-recognition
+   git clone git@github.com:jaymistry456/gujarati-handwritten-numeral-recognition.git
+   cd gujarati-handwritten-numeral-recognition
 2. Set up a virtual environment:
    ```bash
    python -m venv myprojectenv
