@@ -18,8 +18,8 @@ To run this project, you need to have Python installed on your machine along wit
    cd gujarati-digit-recognition
 2. Set up a virtual environment:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use source .\venv\Scripts\activate
+   python -m venv myprojectenv
+   source myprojectenv/bin/activate  # On Windows, use source .\myprojectenv\Scripts\activate
 3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
