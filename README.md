@@ -36,4 +36,4 @@ The PyQT application demonstrates a way to use the model in real-world applicati
 3. The user can download the annotated image into their computer using the "Download Annotated Button".
 4. The recognized will also be visible in the bottom section of the application, ordered from top-left of the image to the bottom-right.
 
-![alt text](image.png)
+![alt text](readme.png)
