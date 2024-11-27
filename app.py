@@ -68,7 +68,7 @@ class DigitRecognitionApp(QWidget):
 
     def upload_image(self):
         # Open a file dialog to select an image file
-        file_path, _ = QFileDialog.getOpenFileName(self, "Open Image File", "", "Images (*.png *.jpg *.bmp)")
+        file_path, _ = QFileDialog.getOpenFileName(self, "Open Image File", "test_images", "Images (*.png *.jpg *.bmp)")
         if file_path:
             self.process_image(file_path)
 
