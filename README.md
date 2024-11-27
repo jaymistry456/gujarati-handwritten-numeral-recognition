@@ -10,7 +10,7 @@ The goal of this project is to build a model capable of recognizing Gujarati han
 
 ## Installation
 
-To run this project, you need to have Python installed on your machine along with the necessary dependencies. You can install the required packages using `pip` by following these steps:
+To run this project, you need to have Python (preferrably Python 3.11.0) installed on your machine along with the necessary dependencies. You can install the required packages using `pip` by following these steps:
 
 1. Clone this repository:
    ```bash
@@ -23,17 +23,17 @@ To run this project, you need to have Python installed on your machine along wit
 3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
-4. To run the Jupyter Notebook, run the follwing command and open the model.ipynb file to see the python notebook in jupyter lab:
+4. To run the Jupyter Notebook, run the following command and open the model.ipynb file to see the python notebook in jupyter lab:
    ```bash
    jupyter lab
-5. To run the PyQT application, run the following command from the project folder
+5. To run the PyQT application, run the following command from the project folder:
    ```bash
    python app.py
 ## Usage
 The PyQT application demonstrates a way to use the model in real-world application:
-1. The user can upload an image from the computer into the application using the "Upload Image" button.
+1. The user can upload an image from the computer into the application using the "Upload Image" button. There is a "test_images" folder which contains 3 images for testing purposes.
 2. The image will be processed and annotated with the corresponding digits.
-3. The user can download the annotated image into their computer using the "Download Annotated Button".
-4. The recognized will also be visible in the bottom section of the application, ordered from top-left of the image to the bottom-right.
+3. The user can download the annotated image into their computer using the "Download Annotated Image" button.
+4. The recognized digits will also be visible in the bottom section of the application, ordered from top-left of the image to the bottom-right.
 
 ![alt text](readme.png)
