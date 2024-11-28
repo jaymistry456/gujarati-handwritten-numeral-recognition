@@ -1,6 +1,7 @@
 # Gujarati Handwritten Digit Recognition
 
-This project involves the development of a machine learning model to recognize handwritten Gujarati digits using deep learning techniques. The model is designed to classify digits written in the Gujarati script, providing an efficient solution for applications that require handwritten digit recognition, such as automated data entry and document digitization.
+This project involves the development of a machine learning model to recognize handwritten Gujarati digits using deep learning techniques. The model is designed to classify digits written in the Gujarati script, providing an efficient solution for applications that require handwritten digit recognition, such as automated data entry and document digitization. I have also uploaded the dataset to Kaggle:
+[Kaggle Link to the Dataset](https://www.kaggle.com/datasets/jaymistry456/gujarati-handwritten-digits-dataset)
 
 ## Project Overview
 The goal of this project is to build a model capable of recognizing Gujarati handwritten digits from images. The model was trained on a custom dataset consisting of over 20,000 handwritten digits by 16 individuals, and it is capable of identifying digits in images with varying handwriting styles. The project focuses on the following objectives:
@@ -10,10 +11,11 @@ The goal of this project is to build a model capable of recognizing Gujarati han
 
 ## Installation
 
-To run this project, you need to have Python (preferrably Python 3.11.0) installed on your machine along with the necessary dependencies. You can install the required packages using `pip` by following these steps:
+To run this project, you need to have Python (preferrably Python 3.11.0, if you get errors while installing dependencies- https://www.python.org/downloads/release/python-3110/) installed on your machine along with the necessary dependencies. You can install the required packages using `pip` by following these steps:
 
-1. Clone this repository:
+1. Clone this repository (Use HTTPS or SSH):
    ```bash
+   git clone https://github.com/jaymistry456/gujarati-handwritten-numeral-recognition.git
    git clone git@github.com:jaymistry456/gujarati-handwritten-numeral-recognition.git
    cd gujarati-handwritten-numeral-recognition
 2. Set up a virtual environment:
@@ -36,4 +38,8 @@ The PyQT application demonstrates a way to use the model in real-world applicati
 3. The user can download the annotated image into their computer using the "Download Annotated Image" button.
 4. The recognized digits will also be visible in the bottom section of the application, ordered from top-left of the image to the bottom-right.
 
-![alt text](readme.png)
+![Image 1](readme_images/readme_image_1.png)
+
+![Image 2](readme_images/readme_image_2.png)
+
+![Image 3](readme_images/readme_image_3.png)
